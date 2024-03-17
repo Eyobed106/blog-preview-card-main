@@ -12,9 +12,13 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 400px;
+  width: 300px;
   padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-sizing: ;
 }
 
-.main-wrapper img {
+.main-wrapper img.illustration {
+  width: 100%;
 }
