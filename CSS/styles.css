@@ -8,7 +8,7 @@ body {
 
 .main-wrapper {
   background-color: #fff;
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -16,7 +16,7 @@ body {
   padding: 20px;
   border: 1px solid hsl(0, 0%, 7%);
   border-radius: 10px;
-  /* box-shadow: 1px 1px 10px black; */
+  box-shadow: 10px 10px 1px black;
 }
 
 .main-wrapper img.illustration {
