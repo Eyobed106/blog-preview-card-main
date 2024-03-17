@@ -12,13 +12,65 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 300px;
+  width: 320px;
   padding: 20px;
-  border: 1px solid black;
+  border: 1px solid hsl(0, 0%, 7%);
   border-radius: 10px;
-  box-sizing: ;
+  /* box-shadow: 1px 1px 10px black; */
 }
 
 .main-wrapper img.illustration {
   width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.main-wrapper .btn-wrapper .btn {
+  background-color: hsl(47, 88%, 63%);
+  border: none;
+  padding: 4px 14px;
+  font-size: 0.7em;
+  font-weight: 800;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.main-wrapper .sub-head {
+  font-size: 0.938em;
+  color: hsl(0, 0%, 50%);
+  margin-bottom: 0;
+}
+
+.main-wrapper h2 {
+  margin: 0.625em 0;
+  font-weight: 800;
+  transition: color 300ms;
+}
+
+.main-wrapper h2:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.main-wrapper p.desc-para {
+  color: hsl(0, 0%, 50%);
+  font-size: 0.9em;
+  margin-top: 0;
+  line-height: 1.5em;
+}
+
+.main-wrapper .profile-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-wrapper .profile-wrapper img.profile-pic {
+  width: 30px;
+  height: 30px;
+}
+
+.main-wrapper .profile-wrapper p.profile-name {
+  font-size: 0.625em;
+  font-weight: 800;
 }
