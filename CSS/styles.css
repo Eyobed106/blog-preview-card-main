@@ -5,3 +5,7 @@ body {
   font-family: "Figtree", sans-serif, arial;
   background-color: hsl(47, 88%, 63%);
 }
+
+.main-wrapper {
+  background-color: #fff;
+}
